@@ -137,7 +137,7 @@ def main():
         agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
         # 입력창
-        user_input = st.chat_input('질문이 무엇인가요?')
+        user_input = st.chat_input('무엇이 알고 싶으신가요?')
 
         if user_input:
             session_id = "default_session"
